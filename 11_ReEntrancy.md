@@ -41,11 +41,16 @@ contract Reentrance {
 
 1, `pragma solidity ^0.6.12` 版本小于8.0时 `balances[msg.sender] -= _amount;` 有溢出风险
 
-> 注: olidity版本>=8时, 如果存在溢出, 则EVM会进行revert
+> 注: solidity版本>=8时, 如果存在溢出, 则EVM会进行revert
 >
 > https://docs.soliditylang.org/en/v0.8.16/080-breaking-changes.html
 >
 > *Failing assertions and other internal checks like division by zero or arithmetic overflow do not use the invalid opcode but instead the revert opcode. More specifically, they will use error data equal to a function call to Panic(uint256) with an error code specific to the circumstances.*
+>
+> 然后你会得到这样的报错:
+> Error: VM Exception while processing transaction: revert -- Reason given: Panic: Arithmetic overflow.
+
+
 
 2, `withdraw`函数 先进行了`msg.sender.call{value:_amount}("")`发送eth,再进行了`balances[msg.sender] -= _amount;` , 我们知道发送eth时会进入到调用者(如果调用者是合约)的`receive` 或 `fallback`函数, 调用者有机会在`receive` 或 `fallback`函数中干坏事, 这时 `balances[msg.sender]`还没有减少, 可以继续进行资金划转
 
@@ -215,4 +220,10 @@ redux-logger.js:1  action SUBMIT_LEVEL_INSTANCE @ 13:58:21.107
 redux-logger.js:1  action SET_BLOCK_NUM @ 13:58:21.733
 
 ```
+
+
+
+## 关于重入工具
+
+https://consensys.github.io/smart-contract-best-practices/attacks/reentrancy/
 
