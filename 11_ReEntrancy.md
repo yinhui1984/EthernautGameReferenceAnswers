@@ -223,7 +223,7 @@ redux-logger.js:1  action SET_BLOCK_NUM @ 13:58:21.733
 
 
 
-## 关于重入工具
+## 关于重入攻击
 
 https://consensys.github.io/smart-contract-best-practices/attacks/reentrancy/
 
