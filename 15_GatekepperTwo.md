@@ -92,7 +92,7 @@ contract Attaker {
   }
 ```
 
-`_gateKey` 的16进制为全`F` 即可
+mask 的16进制为全`F` 即可
 
 ```solidity
       bytes8 key = bytes8(
