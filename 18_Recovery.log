@@ -1,0 +1,44 @@
+^^.js:45 (‾⌣‾) Requesting new instance from level... <  < <<PLEASE WAIT>> >  >
+redux-logger.js:1  action LOAD_LEVEL_INSTANCE @ 11:56:18.663
+^^.js:140 ⛏️ Sent transaction ⛏ undefined/tx/0x09da6486364d7683fdbec7df0fb78722bdcfa4461f2a68869d13ca070a2c7abb
+^^.js:35 => Instance address0xA131280d65E9b103A6E0c5CB20Fb62a57C2Fa8C5
+redux-logger.js:1  action LOAD_LEVEL_INSTANCE @ 11:56:26.113
+^^.js:140 ⛏️ Mined transaction ⛏ undefined/tx/0x09da6486364d7683fdbec7df0fb78722bdcfa4461f2a68869d13ca070a2c7abb
+redux-logger.js:1  action SET_BLOCK_NUM @ 11:56:34.397
+instance
+"0xA131280d65E9b103A6E0c5CB20Fb62a57C2Fa8C5"
+await web3.eth.sendTransaction({
+	to: "0xBd20c1bD3E12E50523A9406D9B8238b2566a8334",
+	data: "0x00f55d9d0000000000000000000000008e4a8993ad1111b88c39176d727c8f0598128be6",
+	from: player
+});
+^^.js:140 ⛏️ Sent transaction ⛏ undefined/tx/0x59514b3c348e2ae502d6eccb308dcc014f6f514833d80c63e41bc183ad411a49
+{transactionHash: "0x59514b3c348e2ae502d6eccb308dcc014f6f514833d80c63e41bc183ad411a49", transactionIndex: 0, blockNumber: 101, blockHash: "0x02e7f94e3bf6c22dedc99c83ea25e05d78bafae7d68a139d9582ecb310b13e95", from: "0x8e4a8993ad1111b88c39176d727c8f0598128be6", …}
+^^.js:140 ⛏️ Mined transaction ⛏ undefined/tx/0x59514b3c348e2ae502d6eccb308dcc014f6f514833d80c63e41bc183ad411a49
+^^.js:45 |[●▪▪●]| Submitting level instance... <  < <<PLEASE WAIT>> >  >
+redux-logger.js:1  action SUBMIT_LEVEL_INSTANCE @ 11:57:20.723
+redux-logger.js:1  action SET_BLOCK_NUM @ 11:57:24.462
+^^.js:140 ⛏️ Sent transaction ⛏ undefined/tx/0x2bb6ced63f24cdba7f9861d1b780484ff5a65af5273520e87be032b3b73f6121
+^^.js:73 ／人 ⌒ ‿‿ ⌒ 人＼ Well done, You have completed this level!!!
+^^.js:73 ／人 ⌒ ‿‿ ⌒ 人＼ Well done, You have completed this level!!!
+^^.js:73 ／人 ⌒ ‿‿ ⌒ 人＼ Well done, You have completed this level!!!
+^^.js:73 ／人 ⌒ ‿‿ ⌒ 人＼ Well done, You have completed this level!!!
+^^.js:73 ／人 ⌒ ‿‿ ⌒ 人＼ Well done, You have completed this level!!!
+^^.js:73 ／人 ⌒ ‿‿ ⌒ 人＼ Well done, You have completed this level!!!
+^^.js:73 ／人 ⌒ ‿‿ ⌒ 人＼ Well done, You have completed this level!!!
+^^.js:73 ／人 ⌒ ‿‿ ⌒ 人＼ Well done, You have completed this level!!!
+^^.js:73 ／人 ⌒ ‿‿ ⌒ 人＼ Well done, You have completed this level!!!
+^^.js:73 ／人 ⌒ ‿‿ ⌒ 人＼ Well done, You have completed this level!!!
+^^.js:73 ／人 ⌒ ‿‿ ⌒ 人＼ Well done, You have completed this level!!!
+^^.js:73 ／人 ⌒ ‿‿ ⌒ 人＼ Well done, You have completed this level!!!
+^^.js:73 ／人 ⌒ ‿‿ ⌒ 人＼ Well done, You have completed this level!!!
+^^.js:73 ／人 ⌒ ‿‿ ⌒ 人＼ Well done, You have completed this level!!!
+^^.js:73 ／人 ⌒ ‿‿ ⌒ 人＼ Well done, You have completed this level!!!
+^^.js:73 ／人 ⌒ ‿‿ ⌒ 人＼ Well done, You have completed this level!!!
+^^.js:73 ／人 ⌒ ‿‿ ⌒ 人＼ Well done, You have completed this level!!!
+^^.js:140 ⛏️ Mined transaction ⛏ undefined/tx/0x2bb6ced63f24cdba7f9861d1b780484ff5a65af5273520e87be032b3b73f6121
+^^.js:73 ／人 ⌒ ‿‿ ⌒ 人＼ Well done, You have completed this level!!!
+^^.js:73 ／人 ⌒ ‿‿ ⌒ 人＼ Well done, You have completed this level!!!
+^^.js:73 ／人 ⌒ ‿‿ ⌒ 人＼ Well done, You have completed this level!!!
+^^.js:56 
+redux-logger.js:1  action SET_BLOCK_NUM @ 11:57:34.393
