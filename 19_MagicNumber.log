@@ -1,0 +1,32 @@
+redux-logger.js:1  action SET_BLOCK_NUM @ 16:09:27.395
+contract.setSolver("0x436526bd095c7d3109d9055fa854fe739eb8b5a4")
+Promise {<pending>, _events: Events, emit: ƒ, on: ƒ, …}
+^^.js:140 ⛏️ Sent transaction ⛏ undefined/tx/0x4c857aba0d8411943ff92749de816ef573ee4b2af1690694e6f7297a44e784d4
+^^.js:140 ⛏️ Mined transaction ⛏ undefined/tx/0x4c857aba0d8411943ff92749de816ef573ee4b2af1690694e6f7297a44e784d4
+^^.js:45 (●*∩_∩*●) 正在提交关卡实例... <  < <<请稍等>> >  >
+redux-logger.js:1  action SUBMIT_LEVEL_INSTANCE @ 16:09:45.461
+redux-logger.js:1  action SET_BLOCK_NUM @ 16:09:47.487
+^^.js:140 ⛏️ Sent transaction ⛏ undefined/tx/0x73992fbed5a4d9df155727e7b1b072eab65252c139a141a0a5431788c7a14be0
+^^.js:73 |[●▪▪●]| 牛逼！, 你通过了这关!!!
+^^.js:73 |[●▪▪●]| 牛逼！, 你通过了这关!!!
+^^.js:73 |[●▪▪●]| 牛逼！, 你通过了这关!!!
+^^.js:73 |[●▪▪●]| 牛逼！, 你通过了这关!!!
+^^.js:73 |[●▪▪●]| 牛逼！, 你通过了这关!!!
+^^.js:73 |[●▪▪●]| 牛逼！, 你通过了这关!!!
+^^.js:73 |[●▪▪●]| 牛逼！, 你通过了这关!!!
+^^.js:140 ⛏️ Mined transaction ⛏ undefined/tx/0x73992fbed5a4d9df155727e7b1b072eab65252c139a141a0a5431788c7a14be0
+^^.js:73 |[●▪▪●]| 牛逼！, 你通过了这关!!!
+^^.js:73 |[●▪▪●]| 牛逼！, 你通过了这关!!!
+^^.js:73 |[●▪▪●]| 牛逼！, 你通过了这关!!!
+^^.js:73 |[●▪▪●]| 牛逼！, 你通过了这关!!!
+^^.js:73 |[●▪▪●]| 牛逼！, 你通过了这关!!!
+^^.js:73 |[●▪▪●]| 牛逼！, 你通过了这关!!!
+^^.js:73 |[●▪▪●]| 牛逼！, 你通过了这关!!!
+^^.js:73 |[●▪▪●]| 牛逼！, 你通过了这关!!!
+^^.js:73 |[●▪▪●]| 牛逼！, 你通过了这关!!!
+^^.js:73 |[●▪▪●]| 牛逼！, 你通过了这关!!!
+^^.js:73 |[●▪▪●]| 牛逼！, 你通过了这关!!!
+^^.js:73 |[●▪▪●]| 牛逼！, 你通过了这关!!!
+^^.js:73 |[●▪▪●]| 牛逼！, 你通过了这关!!!
+^^.js:56 
+redux-logger.js:1  action SET_BLOCK_NUM @ 16:09:57.389
