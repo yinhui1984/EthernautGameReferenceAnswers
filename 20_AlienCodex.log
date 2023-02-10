@@ -1,0 +1,43 @@
+^^.js:140 ⛏️ Sent transaction ⛏ undefined/tx/0x9e183e33bc0735ca4900663d1f1ddb2b6ed7b1af4a17d19a89b34c91f42234a8
+^^.js:35 => 实例地址0x4ED679f2bd2AD59748A27d60C1D3bC0F0e0560C1
+redux-logger.js:1  action LOAD_LEVEL_INSTANCE @ 13:16:13.780
+^^.js:140 ⛏️ Mined transaction ⛏ undefined/tx/0x9e183e33bc0735ca4900663d1f1ddb2b6ed7b1af4a17d19a89b34c91f42234a8
+redux-logger.js:1  action SET_BLOCK_NUM @ 13:16:23.762
+console.log(JSON.stringify(contract.abi));
+VM104:1 [{"constant":false,"inputs":[{"name":"i","type":"uint256"},{"name":"_content","type":"bytes32"}],"name":"revise","outputs":[],"payable":false,"stateMutability":"nonpayable","type":"function","signature":"0x0339f300"},{"constant":true,"inputs":[],"name":"contact","outputs":[{"name":"","type":"bool"}],"payable":false,"stateMutability":"view","type":"function","signature":"0x33a8c45a"},{"constant":false,"inputs":[],"name":"retract","outputs":[],"payable":false,"stateMutability":"nonpayable","type":"function","signature":"0x47f57b32"},{"constant":false,"inputs":[],"name":"make_contact","outputs":[],"payable":false,"stateMutability":"nonpayable","type":"function","signature":"0x58699c55"},{"constant":false,"inputs":[],"name":"renounceOwnership","outputs":[],"payable":false,"stateMutability":"nonpayable","type":"function","signature":"0x715018a6"},{"constant":true,"inputs":[],"name":"owner","outputs":[{"name":"","type":"address"}],"payable":false,"stateMutability":"view","type":"function","signature":"0x8da5cb5b"},{"constant":true,"inputs":[],"name":"isOwner","outputs":[{"name":"","type":"bool"}],"payable":false,"stateMutability":"view","type":"function","signature":"0x8f32d59b"},{"constant":true,"inputs":[{"name":"","type":"uint256"}],"name":"codex","outputs":[{"name":"","type":"bytes32"}],"payable":false,"stateMutability":"view","type":"function","signature":"0x94bd7569"},{"constant":false,"inputs":[{"name":"_content","type":"bytes32"}],"name":"record","outputs":[],"payable":false,"stateMutability":"nonpayable","type":"function","signature":"0xb5c645bd"},{"constant":false,"inputs":[{"name":"newOwner","type":"address"}],"name":"transferOwnership","outputs":[],"payable":false,"stateMutability":"nonpayable","type":"function","signature":"0xf2fde38b"},{"anonymous":false,"inputs":[{"indexed":true,"name":"previousOwner","type":"address"},{"indexed":true,"name":"newOwner","type":"address"}],"name":"OwnershipTransferred","type":"event","signature":"0x8be0079c531659141344cd1fd0a4f28419497f9722a3daafe3b4186f6b6457e0"}]
+undefined
+contract.address
+"0x4ED679f2bd2AD59748A27d60C1D3bC0F0e0560C1"
+redux-logger.js:1  action SET_GAS_PRICE @ 13:46:04.791
+redux-logger.js:1  action SET_GAS_PRICE @ 14:16:06.836
+redux-logger.js:1  action SET_BLOCK_NUM @ 14:34:03.969
+player
+"0x0E42765a33CD60dbF569ad4bE388Ad5293E02477"
+^^.js:45 \(ˆ˚ˆ)/ 正在提交关卡实例... <  < <<请稍等>> >  >
+redux-logger.js:1  action SUBMIT_LEVEL_INSTANCE @ 14:34:50.097
+redux-logger.js:1  action SET_BLOCK_NUM @ 14:34:53.815
+^^.js:140 ⛏️ Sent transaction ⛏ undefined/tx/0x99e78d7df4e8885325d69986c05dbb93a41873b3bd300c747682aead766264a2
+^^.js:73 t(-.-t) 牛逼！, 你通过了这关!!!
+^^.js:73 t(-.-t) 牛逼！, 你通过了这关!!!
+^^.js:73 t(-.-t) 牛逼！, 你通过了这关!!!
+^^.js:73 t(-.-t) 牛逼！, 你通过了这关!!!
+^^.js:73 t(-.-t) 牛逼！, 你通过了这关!!!
+^^.js:73 t(-.-t) 牛逼！, 你通过了这关!!!
+^^.js:73 t(-.-t) 牛逼！, 你通过了这关!!!
+^^.js:73 t(-.-t) 牛逼！, 你通过了这关!!!
+^^.js:73 t(-.-t) 牛逼！, 你通过了这关!!!
+^^.js:73 t(-.-t) 牛逼！, 你通过了这关!!!
+redux-logger.js:1  action SUBMIT_LEVEL_INSTANCE @ 14:34:54.483
+^^.js:73 t(-.-t) 牛逼！, 你通过了这关!!!
+^^.js:140 ⛏️ Mined transaction ⛏ undefined/tx/0x99e78d7df4e8885325d69986c05dbb93a41873b3bd300c747682aead766264a2
+^^.js:73 t(-.-t) 牛逼！, 你通过了这关!!!
+^^.js:73 t(-.-t) 牛逼！, 你通过了这关!!!
+^^.js:73 t(-.-t) 牛逼！, 你通过了这关!!!
+^^.js:73 t(-.-t) 牛逼！, 你通过了这关!!!
+^^.js:73 t(-.-t) 牛逼！, 你通过了这关!!!
+^^.js:73 t(-.-t) 牛逼！, 你通过了这关!!!
+^^.js:73 t(-.-t) 牛逼！, 你通过了这关!!!
+^^.js:73 t(-.-t) 牛逼！, 你通过了这关!!!
+^^.js:73 t(-.-t) 牛逼！, 你通过了这关!!!
+^^.js:56 
+redux-logger.js:1  action SET_BLOCK_NUM @ 14:35:04.050
