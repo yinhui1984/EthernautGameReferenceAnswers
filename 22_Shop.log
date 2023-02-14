@@ -1,0 +1,41 @@
+^^.js:45 ᕦ(ò_óˇ)ᕤ 正在从关卡获得新的实例... <  < <<请稍等>> >  >
+redux-logger.js:1  action LOAD_LEVEL_INSTANCE @ 14:08:38.911
+^^.js:140 ⛏️ Sent transaction ⛏ undefined/tx/0xd3261a5c4804a1b0cd33f195c51f8f2ad9c8b4cab984fe26a470f703bd217e4b
+^^.js:35 => 实例地址0xB72aAB48b9B89FDa2C1CD7538E073eD56048fAA9
+redux-logger.js:1  action LOAD_LEVEL_INSTANCE @ 14:08:44.672
+^^.js:140 ⛏️ Mined transaction ⛏ undefined/tx/0xd3261a5c4804a1b0cd33f195c51f8f2ad9c8b4cab984fe26a470f703bd217e4b
+redux-logger.js:1  action SET_BLOCK_NUM @ 14:08:50.385
+redux-logger.js:1  action SET_BLOCK_NUM @ 14:11:30.473
+await contract.isSold()
+true
+await contract.price()
+BN {negative: 0, words: Array(2), length: 1, red: null}length: 1negative: 0red: nullwords: (2) [1, empty]__proto__: Object
+(await contract.price()).toString()
+"1"
+^^.js:45 | – _ – | 正在提交关卡实例... <  < <<请稍等>> >  >
+redux-logger.js:1  action SUBMIT_LEVEL_INSTANCE @ 14:12:52.727
+^^.js:140 ⛏️ Sent transaction ⛏ undefined/tx/0xf71738bd2a04b7c4eed5c0a6ec982e243469363b87be8a24dcd60c779a787f60
+^^.js:73 ☚ (<‿<)☚ 牛逼！, 你通过了这关!!!
+^^.js:73 ☚ (<‿<)☚ 牛逼！, 你通过了这关!!!
+^^.js:73 ☚ (<‿<)☚ 牛逼！, 你通过了这关!!!
+^^.js:73 ☚ (<‿<)☚ 牛逼！, 你通过了这关!!!
+^^.js:73 ☚ (<‿<)☚ 牛逼！, 你通过了这关!!!
+^^.js:73 ☚ (<‿<)☚ 牛逼！, 你通过了这关!!!
+^^.js:73 ☚ (<‿<)☚ 牛逼！, 你通过了这关!!!
+^^.js:73 ☚ (<‿<)☚ 牛逼！, 你通过了这关!!!
+^^.js:73 ☚ (<‿<)☚ 牛逼！, 你通过了这关!!!
+redux-logger.js:1  action SUBMIT_LEVEL_INSTANCE @ 14:12:59.744
+^^.js:73 ☚ (<‿<)☚ 牛逼！, 你通过了这关!!!
+^^.js:73 ☚ (<‿<)☚ 牛逼！, 你通过了这关!!!
+^^.js:73 ☚ (<‿<)☚ 牛逼！, 你通过了这关!!!
+^^.js:140 ⛏️ Mined transaction ⛏ undefined/tx/0xf71738bd2a04b7c4eed5c0a6ec982e243469363b87be8a24dcd60c779a787f60
+^^.js:73 ☚ (<‿<)☚ 牛逼！, 你通过了这关!!!
+^^.js:73 ☚ (<‿<)☚ 牛逼！, 你通过了这关!!!
+^^.js:73 ☚ (<‿<)☚ 牛逼！, 你通过了这关!!!
+^^.js:73 ☚ (<‿<)☚ 牛逼！, 你通过了这关!!!
+^^.js:73 ☚ (<‿<)☚ 牛逼！, 你通过了这关!!!
+^^.js:73 ☚ (<‿<)☚ 牛逼！, 你通过了这关!!!
+^^.js:73 ☚ (<‿<)☚ 牛逼！, 你通过了这关!!!
+^^.js:73 ☚ (<‿<)☚ 牛逼！, 你通过了这关!!!
+^^.js:56 
+redux-logger.js:1  action SET_BLOCK_NUM @ 14:13:00.391
