@@ -1,0 +1,62 @@
+^^.js:45 ‘(◣_◢)’ 正在从关卡获得新的实例... <  < <<请稍等>> >  >
+redux-logger.js:1  action LOAD_LEVEL_INSTANCE @ 09:49:05.195
+^^.js:140 ⛏️ Sent transaction ⛏ undefined/tx/0x639708ee993181037cd499c55de0db02d01a82b0ad7ce3ee7042778be9ca9c85
+^^.js:35 => 实例地址0xa6af93119097649a8a42ea988AA2a7D29D769AD3
+redux-logger.js:1  action LOAD_LEVEL_INSTANCE @ 09:49:11.848
+^^.js:140 ⛏️ Mined transaction ⛏ undefined/tx/0x639708ee993181037cd499c55de0db02d01a82b0ad7ce3ee7042778be9ca9c85
+redux-logger.js:1  action SET_BLOCK_NUM @ 09:49:18.622
+let abi = []
+let byteCode = "0x" +
+        "6080604052348015600f57600080fd5b50604580601d6000396000f3fe608060405236600a57fe5b600080fdfea2646970667358221220bdbd51c10b7e8dc17a5d41a35e0836195db4be8a9da59892a6182d0b3ff7ba1664736f6c63430008110033"
+       
+       
+       
+//deploy it
+let myContract = new web3.eth.Contract(abi);
+let deploy = myContract.deploy({
+	data: byteCode,
+	arguments: []
+});
+let myInstance = await deploy.send({
+	from: player
+});
+^^.js:140 ⛏️ Sent transaction ⛏ undefined/tx/0x40c128e5b7bd5a9b19ae5b52f3c44d3af3ea2c413088f2cf5b60ba2cf16073d5
+^^.js:140 ⛏️ Mined transaction ⛏ undefined/tx/0x40c128e5b7bd5a9b19ae5b52f3c44d3af3ea2c413088f2cf5b60ba2cf16073d5
+undefined
+redux-logger.js:1  action SET_BLOCK_NUM @ 09:52:08.681
+myInstance
+C {_requestManager: e, givenProvider: Proxy, providers: {…}, setProvider: ƒ, …}
+myInstance._address
+"0x8059a6dCcBfbbAfbA013742FbF9C3ab66E0116a9"
+contract.setWithdrawPartner(myInstance._address)
+Promise {<pending>, _events: Events, emit: ƒ, on: ƒ, …}
+^^.js:140 ⛏️ Sent transaction ⛏ undefined/tx/0x88cf03bfa8e7931ac84fa74d3182026dfefca2a078233c8dbaf0c78bcda06854
+^^.js:140 ⛏️ Mined transaction ⛏ undefined/tx/0x88cf03bfa8e7931ac84fa74d3182026dfefca2a078233c8dbaf0c78bcda06854
+^^.js:45 \,,/(◣_◢)\,,/ 正在提交关卡实例... <  < <<请稍等>> >  >
+redux-logger.js:1  action SUBMIT_LEVEL_INSTANCE @ 09:55:06.322
+redux-logger.js:1  action SET_BLOCK_NUM @ 09:55:08.650
+^^.js:140 ⛏️ Sent transaction ⛏ undefined/tx/0xb4d6a45495d375e83c2378105b867177eddc5bf1ad4366d8585c5b9f8ce5e680
+^^.js:73 (◔/‿\◔) 牛逼！, 你通过了这关!!!
+^^.js:73 (◔/‿\◔) 牛逼！, 你通过了这关!!!
+^^.js:73 (◔/‿\◔) 牛逼！, 你通过了这关!!!
+^^.js:73 (◔/‿\◔) 牛逼！, 你通过了这关!!!
+^^.js:73 (◔/‿\◔) 牛逼！, 你通过了这关!!!
+^^.js:73 (◔/‿\◔) 牛逼！, 你通过了这关!!!
+^^.js:73 (◔/‿\◔) 牛逼！, 你通过了这关!!!
+^^.js:73 (◔/‿\◔) 牛逼！, 你通过了这关!!!
+^^.js:73 (◔/‿\◔) 牛逼！, 你通过了这关!!!
+^^.js:73 (◔/‿\◔) 牛逼！, 你通过了这关!!!
+redux-logger.js:1  action SUBMIT_LEVEL_INSTANCE @ 09:55:12.345
+^^.js:73 (◔/‿\◔) 牛逼！, 你通过了这关!!!
+^^.js:140 ⛏️ Mined transaction ⛏ undefined/tx/0xb4d6a45495d375e83c2378105b867177eddc5bf1ad4366d8585c5b9f8ce5e680
+^^.js:73 (◔/‿\◔) 牛逼！, 你通过了这关!!!
+^^.js:73 (◔/‿\◔) 牛逼！, 你通过了这关!!!
+^^.js:73 (◔/‿\◔) 牛逼！, 你通过了这关!!!
+^^.js:73 (◔/‿\◔) 牛逼！, 你通过了这关!!!
+^^.js:73 (◔/‿\◔) 牛逼！, 你通过了这关!!!
+^^.js:73 (◔/‿\◔) 牛逼！, 你通过了这关!!!
+^^.js:73 (◔/‿\◔) 牛逼！, 你通过了这关!!!
+^^.js:73 (◔/‿\◔) 牛逼！, 你通过了这关!!!
+^^.js:73 (◔/‿\◔) 牛逼！, 你通过了这关!!!
+^^.js:56 
+redux-logger.js:1  action SET_BLOCK_NUM @ 09:55:18.811
