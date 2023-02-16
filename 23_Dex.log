@@ -1,0 +1,85 @@
+^^.js:45 (◔/‿\◔) 正在从关卡获得新的实例... <  < <<请稍等>> >  >
+redux-logger.js:1  action LOAD_LEVEL_INSTANCE @ 13:42:00.393
+^^.js:140 ⛏️ Sent transaction ⛏ undefined/tx/0x944f6d9b18f6562b7d399f0c9b435f58bc3db62fbff8fb0d5453868acf7c8f68
+^^.js:35 => 实例地址0x6bAE5C850368251e131c5dabadD6297f13b5d24b
+redux-logger.js:1  action LOAD_LEVEL_INSTANCE @ 13:42:06.748
+^^.js:140 ⛏️ Mined transaction ⛏ undefined/tx/0x944f6d9b18f6562b7d399f0c9b435f58bc3db62fbff8fb0d5453868acf7c8f68
+await contract.approve(instance,10000)
+redux-logger.js:1  action SET_BLOCK_NUM @ 13:42:12.652
+^^.js:140 ⛏️ Sent transaction ⛏ undefined/tx/0x8b9cfec346c519fc47dcf7fe3ccf0580f53bf558cbf3379241ef246fb8032635
+{tx: "0x8b9cfec346c519fc47dcf7fe3ccf0580f53bf558cbf3379241ef246fb8032635", receipt: {…}, logs: Array(0)}
+^^.js:140 ⛏️ Mined transaction ⛏ undefined/tx/0x8b9cfec346c519fc47dcf7fe3ccf0580f53bf558cbf3379241ef246fb8032635
+await contract.swap(await contract.token1(), await contract.token2(), 10)
+redux-logger.js:1  action SET_BLOCK_NUM @ 13:42:23.879
+^^.js:140 ⛏️ Sent transaction ⛏ undefined/tx/0x0777774fbc103690bb3df5b0de66c1a65050dfc14a423b5aba77c3fec3650f7a
+{tx: "0x0777774fbc103690bb3df5b0de66c1a65050dfc14a423b5aba77c3fec3650f7a", receipt: {…}, logs: Array(0)}
+^^.js:140 ⛏️ Mined transaction ⛏ undefined/tx/0x0777774fbc103690bb3df5b0de66c1a65050dfc14a423b5aba77c3fec3650f7a
+redux-logger.js:1  action SET_BLOCK_NUM @ 13:42:32.336
+(await contract.getSwapPrice(await contract.token1(), await contract.token2(), 1)).toString()
+"0"
+(await contract.getSwapPrice(await contract.token2(), await contract.token1(), 1)).toString()
+"1"
+(await contract.getSwapPrice(await contract.token2(), await contract.token1(), 20)).toString()
+"24"
+await contract.swap(await contract.token2(), await contract.token1(), 20)
+^^.js:140 ⛏️ Sent transaction ⛏ undefined/tx/0x16c77f8cc0aa9b4080db58379d1048b315efafc7c09802326ac37238471d0df4
+{tx: "0x16c77f8cc0aa9b4080db58379d1048b315efafc7c09802326ac37238471d0df4", receipt: {…}, logs: Array(0)}
+^^.js:140 ⛏️ Mined transaction ⛏ undefined/tx/0x16c77f8cc0aa9b4080db58379d1048b315efafc7c09802326ac37238471d0df4
+redux-logger.js:1  action SET_BLOCK_NUM @ 13:45:32.236
+(await contract.balanceOf(await contract.token1(), player)).toString()
+"24"
+(await contract.balanceOf(await contract.token2(), player)).toString()
+"0"
+(await contract.balanceOf(await contract.token1(), instance)).toString()
+"86"
+(await contract.balanceOf(await contract.token2(), instance)).toString()
+"110"
+await contract.swap(await contract.token1(), await contract.token2(), 24)
+^^.js:140 ⛏️ Sent transaction ⛏ undefined/tx/0x8178e31157a3959a325e195f534ff6476412b35e9d56c9cc467a2d1db29aa3a2
+{tx: "0x8178e31157a3959a325e195f534ff6476412b35e9d56c9cc467a2d1db29aa3a2", receipt: {…}, logs: Array(0)}
+^^.js:140 ⛏️ Mined transaction ⛏ undefined/tx/0x8178e31157a3959a325e195f534ff6476412b35e9d56c9cc467a2d1db29aa3a2
+redux-logger.js:1  action SET_BLOCK_NUM @ 13:48:32.225
+await contract.swap(await contract.token2(), await contract.token1(), 30)
+^^.js:140 ⛏️ Sent transaction ⛏ undefined/tx/0xdf5580e82773d66ce4fd2774107bcbd933cd1b24149ec05c1a95f5b49294f6a1
+{tx: "0xdf5580e82773d66ce4fd2774107bcbd933cd1b24149ec05c1a95f5b49294f6a1", receipt: {…}, logs: Array(0)}
+^^.js:140 ⛏️ Mined transaction ⛏ undefined/tx/0xdf5580e82773d66ce4fd2774107bcbd933cd1b24149ec05c1a95f5b49294f6a1
+redux-logger.js:1  action SET_BLOCK_NUM @ 13:48:42.227
+await contract.swap(await contract.token1(), await contract.token2(), 41)
+^^.js:140 ⛏️ Sent transaction ⛏ undefined/tx/0xd079fa782f302ab4e9969f54d3a6468153eac49b732aa2223c373d32f6b0c767
+{tx: "0xd079fa782f302ab4e9969f54d3a6468153eac49b732aa2223c373d32f6b0c767", receipt: {…}, logs: Array(0)}
+^^.js:140 ⛏️ Mined transaction ⛏ undefined/tx/0xd079fa782f302ab4e9969f54d3a6468153eac49b732aa2223c373d32f6b0c767
+redux-logger.js:1  action SET_BLOCK_NUM @ 13:48:52.229
+await contract.swap(await contract.token2(), await contract.token1(), 45)
+^^.js:140 ⛏️ Sent transaction ⛏ undefined/tx/0x09fea147421911520ecc05aa2868c635f669488752e11ce1e2707b0afa937f2b
+{tx: "0x09fea147421911520ecc05aa2868c635f669488752e11ce1e2707b0afa937f2b", receipt: {…}, logs: Array(0)}
+^^.js:140 ⛏️ Mined transaction ⛏ undefined/tx/0x09fea147421911520ecc05aa2868c635f669488752e11ce1e2707b0afa937f2b
+redux-logger.js:1  action SET_GAS_PRICE @ 13:49:02.227
+redux-logger.js:1  action SET_BLOCK_NUM @ 13:49:02.228
+(await contract.balanceOf(await contract.token1(), instance)).toString()
+"0"
+^^.js:45 ⊂(✰‿✰)つ 正在提交关卡实例... <  < <<请稍等>> >  >
+redux-logger.js:1  action SUBMIT_LEVEL_INSTANCE @ 13:49:12.262
+^^.js:140 ⛏️ Sent transaction ⛏ undefined/tx/0x093b9e5bb752e054a3c621a5a0003c80e13f813c51fd8e75ce75e7db9e380c24
+^^.js:73 ◕_◕ 牛逼！, 你通过了这关!!!
+^^.js:73 ◕_◕ 牛逼！, 你通过了这关!!!
+^^.js:73 ◕_◕ 牛逼！, 你通过了这关!!!
+^^.js:73 ◕_◕ 牛逼！, 你通过了这关!!!
+^^.js:73 ◕_◕ 牛逼！, 你通过了这关!!!
+^^.js:73 ◕_◕ 牛逼！, 你通过了这关!!!
+^^.js:73 ◕_◕ 牛逼！, 你通过了这关!!!
+^^.js:73 ◕_◕ 牛逼！, 你通过了这关!!!
+^^.js:73 ◕_◕ 牛逼！, 你通过了这关!!!
+^^.js:73 ◕_◕ 牛逼！, 你通过了这关!!!
+^^.js:73 ◕_◕ 牛逼！, 你通过了这关!!!
+^^.js:140 ⛏️ Mined transaction ⛏ undefined/tx/0x093b9e5bb752e054a3c621a5a0003c80e13f813c51fd8e75ce75e7db9e380c24
+^^.js:73 ◕_◕ 牛逼！, 你通过了这关!!!
+^^.js:73 ◕_◕ 牛逼！, 你通过了这关!!!
+^^.js:73 ◕_◕ 牛逼！, 你通过了这关!!!
+^^.js:73 ◕_◕ 牛逼！, 你通过了这关!!!
+^^.js:73 ◕_◕ 牛逼！, 你通过了这关!!!
+^^.js:73 ◕_◕ 牛逼！, 你通过了这关!!!
+^^.js:73 ◕_◕ 牛逼！, 你通过了这关!!!
+^^.js:73 ◕_◕ 牛逼！, 你通过了这关!!!
+^^.js:73 ◕_◕ 牛逼！, 你通过了这关!!!
+^^.js:56 
+redux-logger.js:1  action SET_BLOCK_NUM @ 13:49:22.228
