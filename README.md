@@ -1,5 +1,7 @@
 # EthernautGameReferenceAnswers
- 我玩基于Web3/Solidity的对抗游戏Ethernaut的参考答案
+ 我玩基于Web3/Solidity的对抗游戏Ethernaut的记录
+
+28个关卡全部闯关完成 ~~
 
 
 
