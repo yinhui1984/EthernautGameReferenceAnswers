@@ -1,0 +1,52 @@
+instance
+"0xeF3648F0355f45aF2b69FC17b77ffb6986494433"
+redux-logger.js:1  action SET_BLOCK_NUM @ 09:28:19.483
+calldata = await web3.eth.abi.encodeFunctionCall({
+    name: 'setDetectionBot',
+    type: 'function',
+    inputs: [{
+        type: 'address',
+        name: 'detectionBotAddress'
+    }]
+}, ['0x987bA5791848c789B9748afED79445CEACAC85db']);
+"0x9e927c68000000000000000000000000987ba5791848c789b9748afed79445ceacac85db"
+forta=await contract.forta()
+"0x711F36183210Ac62B65F0efB7FaA66a364BbDC00"
+await web3.eth.sendTransaction(
+	{
+		from: player, 
+		to: forta,
+		data:calldata
+	}
+)
+^^.js:140 ⛏️ Sent transaction ⛏ undefined/tx/0xd6faf06a24e0c43f97b5d7d5f9ce06075943338ca0856cd99d34e34723185a74
+{transactionHash: "0xd6faf06a24e0c43f97b5d7d5f9ce06075943338ca0856cd99d34e34723185a74", transactionIndex: 0, blockNumber: 204, blockHash: "0xe23d5c6611d4569b9a5fce1e22303d0e1686cb241694fb28ee0438b9a24962bb", from: "0x37bd42f4cf5785f5a36244e4800636ce5787d5e8", …}
+^^.js:140 ⛏️ Mined transaction ⛏ undefined/tx/0xd6faf06a24e0c43f97b5d7d5f9ce06075943338ca0856cd99d34e34723185a74
+^^.js:45 t(-.-t) 正在提交关卡实例... <  < <<请稍等>> >  >
+redux-logger.js:1  action SUBMIT_LEVEL_INSTANCE @ 09:32:57.775
+redux-logger.js:1  action SET_BLOCK_NUM @ 09:32:58.536
+^^.js:140 ⛏️ Sent transaction ⛏ undefined/tx/0x3ed4f555dca224c070d558c045ba36e3f118a6ff752970e0312efa9bce872b78
+^^.js:73 \,,/(◣_◢)\,,/ 牛逼！, 你通过了这关!!!
+^^.js:73 \,,/(◣_◢)\,,/ 牛逼！, 你通过了这关!!!
+^^.js:73 \,,/(◣_◢)\,,/ 牛逼！, 你通过了这关!!!
+^^.js:73 \,,/(◣_◢)\,,/ 牛逼！, 你通过了这关!!!
+^^.js:73 \,,/(◣_◢)\,,/ 牛逼！, 你通过了这关!!!
+^^.js:73 \,,/(◣_◢)\,,/ 牛逼！, 你通过了这关!!!
+^^.js:73 \,,/(◣_◢)\,,/ 牛逼！, 你通过了这关!!!
+^^.js:73 \,,/(◣_◢)\,,/ 牛逼！, 你通过了这关!!!
+^^.js:73 \,,/(◣_◢)\,,/ 牛逼！, 你通过了这关!!!
+^^.js:73 \,,/(◣_◢)\,,/ 牛逼！, 你通过了这关!!!
+^^.js:73 \,,/(◣_◢)\,,/ 牛逼！, 你通过了这关!!!
+redux-logger.js:1  action SUBMIT_LEVEL_INSTANCE @ 09:33:03.254
+^^.js:73 \,,/(◣_◢)\,,/ 牛逼！, 你通过了这关!!!
+^^.js:140 ⛏️ Mined transaction ⛏ undefined/tx/0x3ed4f555dca224c070d558c045ba36e3f118a6ff752970e0312efa9bce872b78
+^^.js:73 \,,/(◣_◢)\,,/ 牛逼！, 你通过了这关!!!
+^^.js:73 \,,/(◣_◢)\,,/ 牛逼！, 你通过了这关!!!
+^^.js:73 \,,/(◣_◢)\,,/ 牛逼！, 你通过了这关!!!
+^^.js:73 \,,/(◣_◢)\,,/ 牛逼！, 你通过了这关!!!
+^^.js:73 \,,/(◣_◢)\,,/ 牛逼！, 你通过了这关!!!
+^^.js:73 \,,/(◣_◢)\,,/ 牛逼！, 你通过了这关!!!
+^^.js:73 \,,/(◣_◢)\,,/ 牛逼！, 你通过了这关!!!
+^^.js:73 \,,/(◣_◢)\,,/ 牛逼！, 你通过了这关!!!
+^^.js:56 
+redux-logger.js:1  action SET_BLOCK_NUM @ 09:33:08.534
